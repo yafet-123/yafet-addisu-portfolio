@@ -79,7 +79,7 @@ const Navbar = ()=>{
         			<ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
         				{ NavbarList.map((navbar,index)=>(
 	          			
-	            			<li className='ml-10 text-sm uppercase hover:border-b'>
+	            			<li key={index} className='ml-10 text-sm uppercase hover:border-b'>
 	              				<Link href={navbar.path}>{navbar.text}</Link>
 	            			</li>
           				))}
@@ -130,7 +130,7 @@ const Navbar = ()=>{
  	      			<div className='py-4 flex flex-col'>
  	      				<ul className='uppercase'>
  	      					{ NavbarList.map((navbar,index)=>(
-	 	      					<Link href={navbar.path}>
+	 	      					<Link key={index} href={navbar.path}>
 	                				<li onClick={() => setNav(false)} className='py-4 text-sm'>
 	                  					{navbar.text}
 	                				</li>

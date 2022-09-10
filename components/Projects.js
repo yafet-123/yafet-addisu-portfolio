@@ -4,10 +4,10 @@ import ProjectItem from './ProjectItem';
 
 const Projects = ()=>{
 	const projectsList = [
-		{title:"Property Finder",path:"/projects/property.jpg",projectUrl:"/property",tech:"React JS"},
-		{title:"Crypto App",path:"/projects/crypto.jpg",projectUrl:"/crypto",tech:"React JS"},
-		{title:"Netflix App",path:"/projects/netflix.jpg",projectUrl:"/netflix",tech:"React JS"},
-		{title:"Twitch UI",path:"/projects/twitch.jpg",projectUrl:"/twitch",tech:"Next.js"},
+		{title:"Property Finder",path:"/projects/property.jpg",projectUrl:"/detail",tech:"React JS",data:12},
+		{title:"Crypto App",path:"/projects/crypto.jpg",projectUrl:"/detail",tech:"React JS",data:12},
+		{title:"Netflix App",path:"/projects/netflix.jpg",projectUrl:"/detail",tech:"React JS",data:"Netflix"},
+		{title:"Twitch UI",path:"/projects/twitch.jpg",projectUrl:"/detail",tech:"Next.js",data:23},
 	]
 	return(
 		<div id='projects' className='w-full'>
@@ -23,7 +23,8 @@ const Projects = ()=>{
 	        				title={project.title}
 	            			backgroundImg={project.path}
 	            			projectUrl={project.projectUrl}
-	            			tech={project.tach}
+	            			tech={project.tech}
+	            			data={project.data}
 	        			/>
         			))}
         		</div>

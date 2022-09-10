@@ -24,7 +24,7 @@ const Navbar = ()=>{
   		{path:"/#about",text:"About"},
   		{path:"/#skills",text:"Skills"},
   		{path:"/#projects",text:"Projects"},
-  		{path:"/#resume",text:"Resume"},
+  		{path:"/resume",text:"Resume"},
   		{path:"/#contact",text:"Contact"},
   	]
   	useEffect(() => {

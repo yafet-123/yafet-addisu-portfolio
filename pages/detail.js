@@ -9,14 +9,17 @@ const Detail = () => {
     const [datas,setdatas] = useState({})
     const [technology, settechnology] = useState([])
     const router = useRouter();
-    const { Netflixdata } = useDataContext()
+    const { Netflixdata, Twitchdata } = useDataContext()
     const { data } = router.query;
     useEffect(()=>{
         function getData(){
             if(data == 'Netflix'){
                 setdatas(Netflixdata)
                 settechnology(datas.technology)
-            } 
+            }else if(data == 'Twitch'){
+                setdatas(Twitchdata)
+                settechnology(datas.technology)
+            }
         }
         getData()  
     },[data,technology])
@@ -25,7 +28,13 @@ const Detail = () => {
         <div className='w-full'>
             <div className='w-screen h-[50vh] relative'>
                 <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
-                    
+                <Image
+                    className='absolute z-1'
+                    layout='fill'
+                    objectFit='cover'
+                    src={datas.image}
+                    alt='/'
+                />  
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                     <h2 className='py-2'>{datas.title}</h2>
                     <h3>{datas.tech}</h3>
@@ -40,14 +49,14 @@ const Detail = () => {
                         {datas.overview}
                     </p>
                     <a
-                        href='https://github.com/fireclint/netflix-react-tailwind'
+                        href={datas.code}
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                     </a>
                     <a
-                        href='https://fireclint.github.io/netflix-react-tailwind/'
+                        href={datas.demo}
                         target='_blank'
                         rel='noreferrer'
                     >

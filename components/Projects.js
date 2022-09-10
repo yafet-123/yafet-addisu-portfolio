@@ -7,7 +7,7 @@ const Projects = ()=>{
 		{title:"Property Finder",path:"/projects/property.jpg",projectUrl:"/detail",tech:"React JS",data:12},
 		{title:"Crypto App",path:"/projects/crypto.jpg",projectUrl:"/detail",tech:"React JS",data:12},
 		{title:"Netflix App",path:"/projects/netflix.jpg",projectUrl:"/detail",tech:"React JS",data:"Netflix"},
-		{title:"Twitch UI",path:"/projects/twitch.jpg",projectUrl:"/detail",tech:"Next.js",data:23},
+		{title:"Twitch UI",path:"/projects/twitch.jpg",projectUrl:"/detail",tech:"Next.js",data:"Twitch"},
 	]
 	return(
 		<div id='projects' className='w-full'>

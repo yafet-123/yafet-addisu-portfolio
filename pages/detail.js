@@ -6,10 +6,10 @@ import { useRouter } from 'next/router'
 import {useDataContext} from '../context/DataContext'
 import {useEffect,useState} from 'react'
 const Detail = () => {
-    const [datas,setdatas] = useState({})
     const [technology, settechnology] = useState([])
     const router = useRouter();
     const { SimpleLandingPagedata, UberClone } = useDataContext()
+    const [datas,setdatas] = useState(SimpleLandingPagedata)
     const { data } = router.query;
     useEffect(()=>{
         function getData(){
@@ -29,10 +29,10 @@ const Detail = () => {
             <div className='w-screen h-[50vh] relative'>
                 <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
                 <Image
+                    src={datas.image}
                     className='absolute z-1'
                     layout='fill'
                     objectFit='cover'
-                    src={datas.image}
                     alt='/'
                 />  
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>

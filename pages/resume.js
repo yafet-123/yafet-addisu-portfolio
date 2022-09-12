@@ -54,7 +54,7 @@ const Resume = () => {
                 <p>
                     Analytical, innovative, and motivated web development professional
                     with experience team work, and organizational effectiveness in fast-paced and challenging
-                    environments. Adept at developing strategies and driving streamlined
+                    environments. Adapt at developing strategies and driving streamlined
                     operations. Diverse analytical skills, team collaboration, and
                     relationship building. Consummate professional, and motivated leader,
                     with solid interpersonal abilities and complex problem-solving skills.
@@ -63,19 +63,25 @@ const Resume = () => {
                 </p>
 
                 <div className='text-center py-4'>
-                    <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
+                    <h5 className='text-center underline text-[25px] py-2'>Skills</h5>
+                    <p className="text-center font-bold">Technical Skills</p>
                     <p className='py-2'>
-                        <span className='font-bold'>Technical Skills</span>
-                        <span className='px-2'>|</span>Front-End Web Developer
-                        <span className='px-2'>|</span> HTML <span className='px-2'>|</span>
-                        CSS <span className='px-2'>|</span>React
-                        <span className='px-2'>|</span>Tailwind
-                        <span className='px-2'>|</span> Firebase
+                        <span className='font-bold'>Front End Web Developer</span>
+                        <span className='px-2'>|</span> HTML 
+                        <span className='px-2'>|</span> CSS
+                        <span className='px-2'>|</span> Javascript
+                        <span className='px-2'>|</span> React
+                        <span className='px-2'>|</span> Next.js
+                        <span className='px-2'>|</span> Tailwind CSS
+                        <span className='px-2'>|</span> Bootstrap
+                        <span className='px-2'>|</span> MaterailUI
                     </p>
                     <p className='py-2'>
-                        <span className='font-bold'>Backend</span>
+                        <span className='font-bold'>Backend End</span>
                         <span className='px-2'>|</span> Node.js
+                        <span className='px-2'>|</span> Express.js
                         <span className='px-2'>|</span> Rest Api
+                        <span className='px-2'>|</span> GraphQL
                     </p>
 
                     <p className='py-2'>
@@ -83,6 +89,14 @@ const Resume = () => {
                         <span className='px-2'>|</span> Postgress
                         <span className='px-2'>|</span> Mongodb
                         <span className='px-2'>|</span> Sanity
+                        <span className='px-2'>|</span> Firebase
+                    </p>
+
+                     <p className='py-2'>
+                        <span className='font-bold'>Other</span>
+                        <span className='px-2'>|</span> Python
+                        <span className='px-2'>|</span> Typescript
+                        
                     </p>
                 </div>
 

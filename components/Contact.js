@@ -8,8 +8,7 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 const Contact = ()=>{
 	const MainList = [
 		{path:"https://www.linkedin.com/in/yafet-addisu-525107249/", icon:<FaLinkedinIn/>},
-		{path:"https://github.com/yafet-123", icon:<FaGithub/>},
-		{path:"/#contact", icon:<AiOutlineMail/>},
+		{path:"https://yafetaddisu123@gmail.com", icon:<AiOutlineMail/>},
 		{path:"/resume", icon:<BsFillPersonLinesFill/>}
 	]
 	return(

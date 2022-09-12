@@ -22,7 +22,7 @@ const Detail = () => {
             }
         }
         getData()  
-    },[data,technology])
+    },[data,technology,SimpleLandingPagedata,UberClone])
     
     return (
         <div className='w-full'>

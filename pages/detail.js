@@ -8,7 +8,7 @@ import {useEffect,useState} from 'react'
 const Detail = () => {
     const [technology, settechnology] = useState([])
     const router = useRouter();
-    const { SimpleLandingPagedata, UberClone, OnlineCodeGenerator } = useDataContext()
+    const { SimpleLandingPagedata, UberClone, OnlineCodeGenerator, ECFFPAGE } = useDataContext()
     const [datas,setdatas] = useState(SimpleLandingPagedata)
     const { data } = router.query;
     useEffect(()=>{
@@ -21,6 +21,9 @@ const Detail = () => {
                 settechnology(datas.technology)
             }else if(data == 'OnlineCodeGenerator'){
                 setdatas(OnlineCodeGenerator)
+                settechnology(datas.technology)
+            }else if(data == 'ecff'){
+                setdatas(ECFFPAGE)
                 settechnology(datas.technology)
             }
         }

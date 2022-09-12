@@ -1,6 +1,7 @@
 import React, {useState, useContext, useEffect} from 'react'
 import {SimpleLandingPagedata} from '../data/simpleLandingPage';
 import {UberClone} from '../data/UberClone';
+import {OnlineCodeGenerator} from '../data/OnlineCodeGenerator';
 
 const DataContext = React.createContext()
 
@@ -12,7 +13,8 @@ export function DataProvider({children}){
 
     const value = {
         SimpleLandingPagedata,
-        UberClone
+        UberClone,
+        OnlineCodeGenerator
     } 
     return(
         <DataContext.Provider value={value}>

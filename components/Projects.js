@@ -6,6 +6,7 @@ const Projects = ()=>{
 	const projectsList = [
 		{title:"Property Finder",path:"/projects/simpleLandingPage.png",projectUrl:"/detail",tech:"Next.js",data:"SimpleLandingPage"},
 		{title:"Crypto App",path:"/projects/UberClone.png",projectUrl:"/detail",tech:"Next.JS",data:"UberClone"},
+		{title:"Online Code Generator",path:"/projects/online-code-generator.png",projectUrl:"/detail",tech:"HTML /CSS",data:"OnlineCodeGenerator"},
 	]
 	return(
 		<div id='projects' className='w-full'>

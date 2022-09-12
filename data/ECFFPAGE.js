@@ -4,7 +4,7 @@ export const ECFFPAGE={
 	"code":"https://github.com/yafet-123/ecff",
 	"demo":"https://ecff-challenge.vercel.app/",
 	"tech":"Next,js / Tailwind",
-	"overview" : " Simple online code generator done by using html, css , js and qrcode.js and is hosted on Github.",
+	"overview" : "I built this application in Next JS and is hosted on Vercel.This page style in using Tailwind CSS.",
     "technology":[
     	'Next.js' , 'Tailwind CSS' , 'react-icons'
     ],

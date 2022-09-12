@@ -20,7 +20,7 @@ const Resume = () => {
                 <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
                     <h2 className='text-center'>Yafet Addisu</h2>
                     <div className='flex'>
-                        <Link href='https://github.com/yafet-123'>
+                        <Link href='https://www.linkedin.com/in/yafet-addisu-525107249/'>
                             <a
                                 
                                 target='_blank'

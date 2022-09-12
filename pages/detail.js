@@ -9,15 +9,15 @@ const Detail = () => {
     const [datas,setdatas] = useState({})
     const [technology, settechnology] = useState([])
     const router = useRouter();
-    const { Netflixdata, Twitchdata } = useDataContext()
+    const { SimpleLandingPagedata, UberClone } = useDataContext()
     const { data } = router.query;
     useEffect(()=>{
         function getData(){
-            if(data == 'Netflix'){
-                setdatas(Netflixdata)
+            if(data == 'SimpleLandingPage'){
+                setdatas(SimpleLandingPagedata)
                 settechnology(datas.technology)
-            }else if(data == 'Twitch'){
-                setdatas(Twitchdata)
+            }else if(data == 'UberClone'){
+                setdatas(UberClone)
                 settechnology(datas.technology)
             }
         }

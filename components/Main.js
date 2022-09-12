@@ -6,8 +6,8 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 const Main = ()=>{
 	// tracking-widest letter-spacing: 0.1em;
 	const MainList = [
-		{path:"https://www.linkedin.com/in/clint-briley-50056920a/", icon:<FaLinkedinIn/>},
-		{path:"https://github.com/fireclint", icon:<FaGithub/>},
+		{path:"https://www.linkedin.com/in/yafet-addisu-525107249/", icon:<FaLinkedinIn/>},
+		{path:"https://github.com/yafet-123", icon:<FaGithub/>},
 		{path:"/#contact", icon:<AiOutlineMail/>},
 		{path:"/resume", icon:<BsFillPersonLinesFill/>}
 	]
@@ -25,8 +25,7 @@ const Main = ()=>{
 						A Full Stack Developer
 					</h1>
 					<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-						I&#39;m focused on building responsive front-end web applications while
-            			learning back-end technologies.
+						I&#39;m focused on building awesome full stack web applications.
 					</p>
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 						{ MainList.map((main,index)=>(

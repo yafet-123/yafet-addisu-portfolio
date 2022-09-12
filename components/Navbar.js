@@ -11,11 +11,10 @@ const Navbar = ()=>{
   	const [shadow, setShadow] = useState(false);
   	const [navBg, setNavBg] = useState('#ecf0f3');
   	const [linkColor, setLinkColor] = useState('#1f2937');
-  	const [position, setPosition] = useState('fixed')
   	const router = useRouter();
   	const MainList = [
-		{path:"https://www.linkedin.com/in/clint-briley-50056920a/", icon:<FaLinkedinIn/>},
-		{path:"https://github.com/fireclint", icon:<FaGithub/>},
+		{path:"https://www.linkedin.com/in/yafet-addisu-525107249/", icon:<FaLinkedinIn/>},
+		{path:"https://github.com/yafet-123", icon:<FaGithub/>},
 		{path:"/#contact", icon:<AiOutlineMail/>},
 		{path:"/resume", icon:<BsFillPersonLinesFill/>}
 	]
@@ -27,26 +26,13 @@ const Navbar = ()=>{
   		{path:"/resume",text:"Resume"},
   		{path:"/#contact",text:"Contact"},
   	]
-  	useEffect(() => {
-    	if (
-      		router.asPath === '/property' ||
-      		router.asPath === '/crypto' ||
-      		router.asPath === '/netflix' ||
-      		router.asPath === '/twitch'
-    	){
-      		setNavBg('transparent');
-      		setLinkColor('#ecf0f3');
-    	} else {
-      		setNavBg('#ecf0f3');
-      		setLinkColor('#1f2937');
-    	}
-  	}, [router]);
-
+  	
   	const handleNav = () => {
     	setNav(!nav);
   	};
 
   	useEffect(() => {
+  		// when it will scrolldown greater than 90 it will have navbar will change it style
     	const handleShadow = () => {
       		if (window.scrollY >= 90) {
         		setShadow(true);
@@ -63,7 +49,7 @@ const Navbar = ()=>{
  				: 'fixed w-full h-20 z-[100]'
       		}
     	>
-    		<div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+    		<div className='flex justify-between items-center w-full h-full px-10 2xl:px-16'>
     			<Link href='/'>
           			<a>
             			<Image

@@ -10,7 +10,8 @@ const Skills = ()=>{
 		{path:"/skills/tailwind.png", text:"Tailwind"},
 		{path:"/skills/firebase.png", text:"Firebase"},
 		{path:"/skills/github1.png", text:"Github"},
-		{path:"/skills/nextjs.png", text:"NextJS"},
+		{path:"/skills/nextjs.png", text:"Next.js"},
+		{path:"/skills/mongo.png", text:"Mongodb"},
 		
 	]
 	return(

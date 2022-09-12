@@ -1,6 +1,6 @@
 import React, {useState, useContext, useEffect} from 'react'
-import {Netflixdata} from '../data/netflix';
-import {Twitchdata} from '../data/twitch';
+import {SimpleLandingPagedata} from '../data/simpleLandingPage';
+import {UberClone} from '../data/UberClone';
 
 const DataContext = React.createContext()
 
@@ -11,8 +11,8 @@ export function useDataContext(){
 export function DataProvider({children}){
 
     const value = {
-        Netflixdata,
-        Twitchdata
+        SimpleLandingPagedata,
+        UberClone
     } 
     return(
         <DataContext.Provider value={value}>

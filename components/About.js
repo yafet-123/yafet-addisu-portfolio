@@ -11,26 +11,20 @@ const About = ()=>{
 					</p>
 					<h2 className="py-4">Who I Am</h2>
 					<p className="py-4 text-gray-600">
-						/ / I am not your average developer
+						I am not a average developer
 					</p>
 
 					<p className="py-4 text-gray-600">
-						I have spent the last 12 years in the fire service working as a
-            			professional firefighter/paramedic. I have always had a knack for
-            			technology and working with computers. In 2019 I started working
-            			with HTML and CSS to make some minor edits on a small business
-            			website that I was operating. What I thought was just a few small
-            			edits turned into a love for programming.
+						I'm a Full Stack web developer with rich experience developing complete web apps 
+						and websites based on JavaScript using React.js and Next.js as my main frontend 
+						framework. I have also experience with node.js for backend support along with all 
+						the logic projects need including database and API support. I am a dedicated developer 
+						with a commitment to perfect development works I work on. I enjoy making iterative 
+						improvements until a project I work on gets completed with the best results. 
+						I'm also passionate about teaching, especially programming and computer science, 
+						and I have worked with college students, high schools, and others alike.
 					</p>
 
-					<p className="py-4 text-gray-600">
-						Fascinated with how intricate programming can be I was quickly drawn
-            			to learn more. I started learning javascript and was even more
-            			enthused with making websites interactive. I then started
-            			freelancing for e-commerce companies on the Shopify platform. I am
-            			now spending my time building projects with React JS, Firebase, and
-            			learning new technologies.
-					</p>
 
 					<Link href="/#projects">
 						<a>
@@ -41,7 +35,7 @@ const About = ()=>{
 					</Link>
 				</div>
 				<div className="w-full h-fit m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-90 ease-in duration-300">
-					<Image src="/about.jpg" width={1000} height={1000} className="rounded-xl" alt="/" />
+					<Image src="/profile.jpg" width={1000} height={1000} className="rounded-xl" alt="/" />
 				</div>
 			</div>
 		</div>

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsFillPersonLinesFill,BsFacebook, BsInstagram } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
@@ -9,6 +9,8 @@ const Contact = ()=>{
 	const MainList = [
 		{path:"https://www.linkedin.com/in/yafet-addisu-525107249/", icon:<FaLinkedinIn/>},
 		{path:"https://yafetaddisu123@gmail.com", icon:<AiOutlineMail/>},
+		{path:"https://www.facebook.com/yafet.addisu.7/",icon:<BsFacebook />},
+		{path:"https://www.instagram.com/yafetaddisu/",icon:<BsInstagram />},
 		{path:"/resume", icon:<BsFillPersonLinesFill/>}
 	]
 	return(

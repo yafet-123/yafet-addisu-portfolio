@@ -35,7 +35,7 @@ const About = ()=>{
 					</Link>
 				</div>
 				<div className="w-full h-fit m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-90 ease-in duration-300">
-					<Image src="/profile.jpg" width={1000} height={1000} className="rounded-xl" alt="/" />
+					<Image src="/profile.jpeg" width={1000} height={1000} className="rounded-xl" alt="/" />
 				</div>
 			</div>
 		</div>

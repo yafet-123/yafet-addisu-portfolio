@@ -12,7 +12,7 @@ const Skills = ()=>{
 		{path:"/skills/github1.png", text:"Github"},
 		{path:"/skills/nextjs.png", text:"Next.js"},
 		{path:"/skills/mongo.png", text:"Mongodb"},
-		
+		{path:"/skills/prisma.png", text:"Prisma"},
 	]
 	return(
 		<div id="skills" className="w-full lg:h-screen p-2">

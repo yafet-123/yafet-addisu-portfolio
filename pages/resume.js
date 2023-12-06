@@ -99,7 +99,6 @@ const Resume = () => {
                         
                     </p>
                 </div>
-
                 
             </div>
         </>

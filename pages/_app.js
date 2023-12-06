@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import Navbar from '../components/Navbar'
+import {Navbar} from '../components/common/Navbar'
 import {DataProvider} from '../context/DataContext'
 
 function MyApp({ Component, pageProps }) {

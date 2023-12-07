@@ -1,5 +1,5 @@
 import { MainHeader } from "../components/common/MainHeader";
-import CommonHeroSection from '../components/CommonHeroSection.jsx';
+import CommonHeroSection from '../components/contact/CommonHeroSection.jsx';
 import ContactForm from "../components/contact/ContactForm"
 import ReachUs from "../components/contact/ReachUs"
 import ImageOne from '../public/projects/ecff_page.png';

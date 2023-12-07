@@ -13,13 +13,7 @@ export const Navbar = () => {
   const router = useRouter();
   const NavLinks = [
     { path: "/", name: "Home" },
-    { path: "/tours", name: "Tours" },
-    { path: "/about", name: "About Us" },
-    { path: "/attraction", name: "Attraction" },
-    { path: "/gallery", name: "Gallery" },
-    { path: "/hotelbooking", name:"Hotel Booking"},
-    // { path: "/carRental", name:"Car Rental"},
-    { path: "/contact", name: "Contact Us" },
+    { path: "/tours", name: "Tours" }
   ];
 
   useEffect(() => {

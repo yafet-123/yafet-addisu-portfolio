@@ -1,10 +1,11 @@
-'use client'
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
+import Loader from '../common/Loading';
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import {BsFacebook, BsYoutube, BsLinkedin, BsInstagram, BsTwitter} from 'react-icons/bs'
 import Link from "next/link";
 import ReactModal from 'react-modal';
 import {useRouter} from 'next/router'
+
 const initialValues = {
   name: "",
   email: "",
@@ -47,8 +48,10 @@ const validateForm = (values) => {
 
 const ContactForm = () => {
   const router = useRouter();
+  const formikRef = useRef(null);
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [modalIsOpenone, setModalIsOpenone] = useState(false);
+  const [modalMessage, setModalMessage] = useState('');
+  const [LoadingmodalIsOpen, setLoadingModalIsOpen] = useState(false);
   const socialMediaLinks = [
     {id:"https://www.linkedin.com/in/helen-zeray-789b89267",path:<BsLinkedin size={30} color="black"/>},
     {id:"https://instagram.com/helenzeray1?igshid=ZGUzMzM3NWJiOQ==",path:<BsInstagram size={30} color="black"/>},
@@ -71,10 +74,15 @@ const ContactForm = () => {
       });
       console.log(response.ok)
       if (response.ok) {
-        setModalIsOpen(true)    
-        router.push("/contact")   
+        setModalMessage(
+          'Thank you for contacting us. We will reach out to you very soon!'
+        );
+        setModalIsOpen(true);
       } else {
-        setModalIsOpenone(true)
+        setModalMessage(
+          'Apologies! Could not send form successfully. Try again please!'
+        );
+        setModalIsOpen(true);
       }
     } catch (error) {
       console.error('Error:', error);
@@ -205,30 +213,25 @@ const ContactForm = () => {
       </Formik>
 
       <ReactModal
+        isOpen={LoadingmodalIsOpen}
+        // onRequestClose={closeModal}
+        className="flex items-center justify-center w-full h-full"
+      >
+        <Loader />
+      </ReactModal>
+      <ReactModal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
-        contentLabel="Modal"
         className="flex items-center justify-center w-full h-full"
       >
-        {/* Add your modal content here */}
-        <div className="flex flex-col items-center justify-center bg-[#F7F7F7] w-[350px] h-[200px] p-2 border rounded-sm ">
-          <p  className="text-md lg:text-xl mb-5 text-center">Your Enquiry form Submitted Successfully.</p>
-          <button onClick={closeModal} className="p-2 bg-[#17c294] border text-white rounded-sm">
+        <div className="flex flex-col items-center justify-center bg-white md:w-[500px] h-[300px] w-full p-2 border rounded-sm ">
+          <p className="text-md lg:text-xl mb-5 text-center">{modalMessage}</p>
+          <button
+            onClick={closeModal}
+            className="p-2 bg-primaryColor border text-white rounded-sm"
+          >
             Close
           </button>
-        </div>
-      </ReactModal>
-
-      <ReactModal
-        isOpen={modalIsOpenone}
-        onRequestClose={closeModalone}
-        contentLabel="Modal Two"
-        className="flex items-center justify-center w-full h-full"
-      >
-        {/* Add your modal content here */}
-        <div className="flex flex-col items-center justify-center bg-[#F7F7F7] w-[350px] h-[200px] p-2 border rounded-sm ">
-          <p  className="text-md lg:text-xl mb-5 text-center">Your Enquiry form Submitted un Successfull.  Please retry again.</p>
-          <button onClick={closeModalone} className="p-2 bg-[#17c294] border text-white rounded-sm">Close</button>
         </div>
       </ReactModal>
     </div>

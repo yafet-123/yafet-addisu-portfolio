@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-const Skills = ()=>{
+const Skill = ()=>{
 	const SkillsList= [
 		{path:"/skills/html.png", text:"Html"},
 		{path:"/skills/css.png", text:"Css"},
@@ -40,4 +40,4 @@ const Skills = ()=>{
 	)
 }
 
-export default Skills
+export default Skill

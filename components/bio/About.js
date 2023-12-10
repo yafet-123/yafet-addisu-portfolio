@@ -15,14 +15,18 @@ const About = ()=>{
 					</p>
 
 					<p className="py-4 text-gray-600">
-						I am a Full Stack web developer with rich experience developing complete web apps 
-						and websites based on JavaScript using React.js and Next.js as my main frontend 
-						framework. I have also experience with node.js for backend support along with all 
-						the logic projects need including database and API support. I am a dedicated developer 
-						with a commitment to perfect development works I work on. I enjoy making iterative 
-						improvements until a project I work on gets completed with the best results. 
-						I am also passionate about teaching, especially programming and computer science, 
-						and I have worked with college students, high schools, and others alike.
+						{`Hello! I'm Yafet Addisu, a dedicated full-stack developer with a passion for crafting innovative and scalable digital 
+						solutions. With a strong foundation in both front-end and back-end technologies, I specialize in bringing ideas to life 
+						through clean, efficient, and user-centric code.My journey in web development began with a fascination for creating 
+						seamless user interfaces using HTML, CSS, and JavaScript. Over the years, I've evolved into a full-stack developer, 
+						proficient in utilizing frameworks like React.js for dynamic front-end experiences.
+						On the back end, I excel in implementing robust server-side solutions using technologies such as Node.js and Express. 
+						I've mastered database integration, including MongoDB and Prisma, ensuring efficient data management and retrieval.
+						GitHub is my collaborative playground, where I showcase my commitment to version control and best coding practices. 
+						From crafting RESTful APIs to deploying applications with Next.js, I'm committed to staying on the cutting edge of 
+						technology.With an eye for detail and a dedication to delivering high-quality solutions, I'm excited about the 
+						opportunity to contribute my skills to your projects. Let's collaborate and turn your ideas into powerful, interactive, 
+						and visually stunning digital experiences.`}
 					</p>
 
 

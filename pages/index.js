@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Main from '../components/Main'
-import About from '../components/About'
 import Contact from '../components/Contact'
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
             <link rel="icon" href="/fav.png" />
         </Head>
         <Main />
-        <About />
         <Contact />
     </div>
   )

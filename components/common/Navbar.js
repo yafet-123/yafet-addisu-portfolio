@@ -13,6 +13,7 @@ export const Navbar = () => {
   const router = useRouter();
   const NavLinks = [
     { path: "/", name: "Home" },
+    { path: "/bio", name: "Bio" },
     { path: "/skills", name: "Skills" },
     { path: "/contact", name: "Contact" }
   ];

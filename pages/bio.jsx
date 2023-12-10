@@ -1,5 +1,5 @@
 import { MainHeader } from "../components/common/MainHeader";
-import About from '../components/bio/About.jsx';
+import About from '../components/bio/About.js';
 
 export default function Bio() {
   return (

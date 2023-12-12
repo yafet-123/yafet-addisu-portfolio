@@ -100,7 +100,7 @@ export const Navbar = () => {
                   key={link.name}
                   className={` ${ router.pathname == '/'  && !shadow || open ? "text-white" : "text-black" } md:my-0 my-7 text-lg md:text-xl hover:underline cursor-pointer hover:text-[#17c294] ${
                     router.pathname === link.path
-                      ? "text-[#edf1f4] underline"
+                      ? "text-[#314373ff] underline"
                       : ""
                   } `}
                 >

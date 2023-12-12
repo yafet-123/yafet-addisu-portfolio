@@ -15,26 +15,16 @@ import {
 } from 'react-icons/fa';
 import { ImLocation } from 'react-icons/im';
 import { MdEmail } from 'react-icons/md';
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+
 
 export const Footer: React.FC = () => {
   const socialMediaLinks = [
-    {
-      icon: <FaFacebook size={30} color="white" />,
-      path: 'https://www.facebook.com/profile.php?id=100075647120196&mibextid=LQQJ4d',
-    },
-    // { icon: <FaYoutube size={30} color="white" /> ,  path:""},
-    {
-      icon: <FaYoutube size={30} color="white" />,
-      path: 'https://www.youtube.com/@UndiscoveredAfrica',
-    },
-    {
-      icon: <FaInstagram size={30} color="white" />,
-      path: 'https://instagram.com/seya_ethiopia_official?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr',
-    },
-    {
-      icon: <FaTelegram size={30} color="white" />,
-      path: 'https://t.me/undiscoverdethiopiatour',
-    },
+    {path:"https://www.linkedin.com/in/yafet-addisu-525107249/", icon:<FaLinkedin size={30} />},
+    {path:"https://yafetaddisu123@gmail.com", icon:<MdEmail size={30} />},
+    {path:"https://www.facebook.com/yafet.addisu.7/",icon:<FaFacebook size={30} />},
+    {path:"https://www.instagram.com/yafetaddisu/",icon:<FaInstagram size={30} />},
+    {path:"/resume", icon:<BsFillPersonLinesFill size={30} />}
   ];
 
   const quickLinks = [

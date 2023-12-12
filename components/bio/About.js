@@ -6,9 +6,11 @@ const About = ()=>{
 		<div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
 			<div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
 				<div className="col-span-2">
-					<p className="uppercase text-xl tracking-widest text-[#5651e5]">
-						Bio
-					</p>
+					<h1 
+						className="font-sans font-extralight text-[2.1rem] leading-[2.35rem] text-left text-[#010101] w-full lg:w-[55%] tracking-[0.16rem] mb-10"
+					>
+						BIo
+					</h1>
 
 					<p className="font-sans font-extralight text-[1.45rem] leading-[3.1rem] text-left text-[#010101] w-full lg:w-[55%] mt-10 lg:mt-0">
 						{`Hello! I'm Yafet Addisu, a dedicated full-stack developer with a passion for crafting innovative and scalable digital 

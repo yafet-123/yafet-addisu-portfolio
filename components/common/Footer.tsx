@@ -39,12 +39,9 @@ export const Footer: React.FC = () => {
 
   const quickLinks = [
     { url: "/", link: "Home" },
-    { url: "/tours", link: "Tours" },
-    { url: "/about", link: "About Us" },
-    { url: "/gallery", link: "Gallery" },
-    { url: "/contact", link: "Contact Us" },
-    { url: "/attraction", link: "Attraction" },
-    { url:"/hotelbooking", link:"Hotel Booking"},
+    { url: "/bio", link: "Bio" },
+    { url: "/skills", link: "Skills" },
+    { url: "/contact", link: "Contact" },
   ];
 
   return (
@@ -57,7 +54,7 @@ export const Footer: React.FC = () => {
                 src={logo}
                 className=""
                 alt="Logo"
-                width={500}
+                width={300}
                 height={200}
               />
             </Link>
@@ -83,29 +80,29 @@ export const Footer: React.FC = () => {
           <Link
             target="_blank"
             className="flex flex-row items-center gap-2 hover:text-gray-300"
-            href={`tel:${+251910140042}`}
+            href={`tel:${+251934781038}`}
           >
             <span className="flex items-center">
-              <FaPhone /> <p className="ml-2 md:ml-3 cursor-pointer">+251910140042</p>
+              <FaPhone /> <p className="ml-2 md:ml-3 cursor-pointer">+251934781038</p>
             </span>
           </Link>
           <Link
             target="_blank"
             className="flex flex-row items-center gap-2 hover:text-gray-300"
-            href={`tel:${+251938177562}`}
+            href={`tel:${+251777940161}`}
           >
             <span className="flex items-center">
-              <FaPhone /> <p className="ml-2 md:ml-3 cursor-pointer">+251938177562</p>
+              <FaPhone /> <p className="ml-2 md:ml-3 cursor-pointer">+251777940161</p>
             </span>
           </Link>
           <div>
             <Link
               target="_blank"
               className="flex flex-row items-center gap-2 hover:text-gray-300"
-              href="mailto:info@undiscoveredethiopia.com"
+              href="mailto:yafetaddisu123@gmail.com"
             >
               <span className="flex items-center">
-                <MdEmail /> <p className="ml-2 md:ml-3 cursor-pointer">info@undiscoveredethiopia.com</p>
+                <MdEmail /> <p className="ml-2 md:ml-3 cursor-pointer">yafetaddisu123@gmail.com</p>
               </span>
             </Link>
           </div>
@@ -143,7 +140,7 @@ export const Footer: React.FC = () => {
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center md:h-10  px-5 md:px-10 bg-white py-2">
         <p className="text-sm md:text-md text-[#1A3E58] md:block text-center md:text-left mb-5 md:mb-0 ">
-          &copy; 2023 Undiscovered Ethiopia Tours. All rights reserved.
+          &copy; 2023 Yafet Portfolio Website. All rights reserved.
         </p>
 
         <div className="text-sm md:text-md text-[#1A3E58] font-medium">
@@ -152,7 +149,7 @@ export const Footer: React.FC = () => {
             className="flex flex-row items-center gap-2 hover:text-gray-300 "
             href="mailto:meetnatnaelkebede@gmail.com"
           >
-            <p className="underline cursor-pointer">Website made by Natnael K. </p>
+            <p className="underline cursor-pointer">Website made by Yafet A. </p>
           </Link>
         </div>
       </div>

@@ -7,14 +7,10 @@ const About = ()=>{
 			<div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
 				<div className="col-span-2">
 					<p className="uppercase text-xl tracking-widest text-[#5651e5]">
-						About
-					</p>
-					<h2 className="py-4">Who I Am</h2>
-					<p className="py-4 text-gray-600">
-						I am not a average developer
+						Bio
 					</p>
 
-					<p className="py-4 text-gray-600">
+					<p className="font-sans font-extralight text-[1.45rem] leading-[3.1rem] text-left text-[#010101] w-full lg:w-[55%] mt-10 lg:mt-0">
 						{`Hello! I'm Yafet Addisu, a dedicated full-stack developer with a passion for crafting innovative and scalable digital 
 						solutions. With a strong foundation in both front-end and back-end technologies, I specialize in bringing ideas to life 
 						through clean, efficient, and user-centric code.My journey in web development began with a fascination for creating 

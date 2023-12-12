@@ -3,16 +3,14 @@ import Link from 'next/link'
 
 const About = ()=>{
 	return(
-		<div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
-			<div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-				<div className="col-span-2">
-					<h1 
-						className="font-sans font-extralight text-[2.1rem] leading-[2.35rem] text-left text-[#010101] w-full lg:w-[55%] tracking-[0.16rem] mb-10"
-					>
-						BIo
+		<div id="about" className="w-full p-2 flex items-center mt-24">
+			<div className="w-full px-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+				<div className="flex flex-col">
+					<h1 className="font-sans font-extralight text-[2.1rem] leading-[2.35rem] text-left text-[#010101] w-full tracking-[0.16rem] mb-5">
+						BIO
 					</h1>
 
-					<p className="font-sans font-extralight text-[1.45rem] leading-[3.1rem] text-left text-[#010101] w-full lg:w-[55%] mt-10 lg:mt-0">
+					<p className="font-sans font-extralight text-[1.45rem] leading-[3rem] text-left text-[#010101] w-full mt-5 lg:mt-0">
 						{`Hello! I'm Yafet Addisu, a dedicated full-stack developer with a passion for crafting innovative and scalable digital 
 						solutions. With a strong foundation in both front-end and back-end technologies, I specialize in bringing ideas to life 
 						through clean, efficient, and user-centric code.My journey in web development began with a fascination for creating 
@@ -30,7 +28,7 @@ const About = ()=>{
 
 					<Link href="/#projects">
 						<a>
-							<p className="py-2 text-gray-600 underline cursor-pointer">
+							<p className="font-sans font-extralight text-[1.45rem] leading-[3rem] text-left text-[#010101] w-full mt-5 lg:mt-0 py-2 text-gray-600 underline cursor-pointer">
 								Check out some of my latest projects.
 							</p>
 						</a>

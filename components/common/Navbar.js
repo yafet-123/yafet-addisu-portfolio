@@ -39,7 +39,7 @@ export const Navbar = () => {
       className={`
         ${
           shadow
-            ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-[#1a3e58] overflow-hidden"
+            ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-zinc-300 bg-opacity-80 overflow-hidden"
             : "fixed w-full h-20 z-[100] border-b-2 border-slate-100 "
         }
       `}
@@ -98,7 +98,7 @@ export const Navbar = () => {
               {NavLinks.map((link) => (
                 <li
                   key={link.name}
-                  className={` md:my-0 my-7 text-lg md:text-xl hover:underline cursor-pointer hover:text-[#17c294] ${
+                  className={` ${ router.pathname == '/'  && !shadow || open ? "text-white" : "text-black" } md:my-0 my-7 text-lg md:text-xl hover:underline cursor-pointer hover:text-[#17c294] ${
                     router.pathname === link.path
                       ? "text-[#edf1f4] underline"
                       : ""

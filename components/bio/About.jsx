@@ -17,17 +17,17 @@ const About = ()=>{
 				</Link>
 			</div>
 			<p className="hidden md:flex font-sans font-extralight text-[1.45rem] leading-[3rem] text-left text-[#010101] w-full mt-5 lg:mt-0">
-				Hello! I'm Yafet Addisu, a dedicated full-stack developer with a passion for crafting innovative and scalable digital 
+				{`Hello! I'm Yafet Addisu, a dedicated full-stack developer with a passion for crafting innovative and scalable digital 
 				solutions. With a strong foundation in both front-end and back-end technologies, I specialize in bringing ideas to life 
-				through clean, efficient, and user-centric code. 
+				through clean, efficient, and user-centric code.`}
 			</p>
 			<div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div className="flex flex-col">
 					<p className="font-sans font-extralight text-[1.45rem] leading-[3rem] text-left text-[#010101] w-full mt-5 lg:mt-0">
 						<span className="flex md:hidden">
-							Hello! I'm Yafet Addisu, a dedicated full-stack developer with a passion for crafting innovative and scalable digital 
+							{`Hello! I'm Yafet Addisu, a dedicated full-stack developer with a passion for crafting innovative and scalable digital 
 							solutions. With a strong foundation in both front-end and back-end technologies, I specialize in bringing ideas to life 
-							through clean, efficient, and user-centric code. 
+							through clean, efficient, and user-centric code. `}
 						</span>
 						<span>
 							{`My journey in web development began with a fascination for creating seamless user interfaces using HTML, CSS, 

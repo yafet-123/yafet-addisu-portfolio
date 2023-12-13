@@ -12,10 +12,10 @@ const Projects = ()=>{
 	return(
 		<div id='projects' className='w-full'>
 			<div className="px-20 py-5">
-        		<div className="grid grid-cols-2 gap-8">
+        		<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         			{ projectsList.map((project,index)=>(
 	        			<ProjectItem
-	        				id={data.id} 
+	        				id={project.id} 
 	        				key={index}
 	        				title={project.title}
 	            			backgroundImg={project.path}

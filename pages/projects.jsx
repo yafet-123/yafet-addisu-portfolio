@@ -1,27 +1,8 @@
 import { MainHeader } from "../components/common/MainHeader";
-import CommonHeroSection from '../components/contact/CommonHeroSection.jsx';
-import ContactForm from "../components/contact/ContactForm"
-import ReachUs from "../components/contact/ReachUs"
-import ImageOne from '../public/projects/ecff_page.png';
-import ImageTwo from '../public/projects/online-code-generator.png';
-import ImageThree from '../public/projects/simpleLandingPage.png';
-import ImageFour from '../public/projects/UberClone.png';
+import CommonHeroSection from '../components/project/CommonHeroSection.jsx';
+import Projects from "../components/project/Projects"
 
 export default function Contact() {
-  const photos = [
-    {
-      image:ImageOne
-    },
-    {
-      image:ImageTwo
-    },
-    {
-      image:ImageThree
-    },
-    {
-      image:ImageFour
-    },
-  ];
 
   return (
     <main className="w-full h-full bg-white flex flex-col">
@@ -30,11 +11,10 @@ export default function Contact() {
         <CommonHeroSection 
           background="contact-background"
           Tagline="Contact Me"
-          photos={photos}
-          Welcome_Message="Hello, I'm Yafet Addisu, a passionate website developer. Whether you have a project in mind, want to collaborate, or simply have a question, I'm here to help. Feel free to reach out through the form below, and I'll get back to you as soon as possible. Let's turn your ideas into reality!"
+          Welcome_Message="WebCraft and PythonAlchemy showcase my prowess in both full-stack web development and Python. In WebCraft, I led the development of a modern, responsive website using HTML5, CSS3 (Sass), and React.js, achieving a 20% increase in user engagement. Simultaneously, PythonAlchemy demonstrates my versatility with Python, delivering elegant solutions from data analysis to automation scripts. These projects reflect my commitment to creating seamless digital experiences and leveraging Python's power across diverse applications."
         />
         <div className="flex flex-col md:flex-row md:justify-around  gap-10 py-10 bg-greenbay-white text-white">
-          <ContactForm />
+          <Projects />
         </div>
       </div>
     </main>

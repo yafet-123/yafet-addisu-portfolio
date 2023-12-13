@@ -35,8 +35,8 @@ export const Footer: React.FC = () => {
   ];
 
   return (
-    <footer className="bg-[#1a3e58] bottom-0 w-full">
-      <div className="flex flex-col lg:flex-row justify-between gap-4 text-white mx-5 md:mx-10 my-5">
+    <footer className="bg-zinc-300 bottom-0 w-full">
+      <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mx-5 md:mx-10 my-5">
         <div className="flex flex-col gap-8 items-start justify-evemly mb-10 md:mb-0">
           <div className="">
             <Link href="/">
@@ -44,8 +44,8 @@ export const Footer: React.FC = () => {
                 src={logo}
                 className=""
                 alt="Logo"
-                width={300}
-                height={200}
+                width={200}
+                height={100}
               />
             </Link>
           </div>

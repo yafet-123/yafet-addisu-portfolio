@@ -15,6 +15,7 @@ export const Navbar = () => {
     { path: "/", name: "Home" },
     { path: "/bio", name: "Bio" },
     { path: "/skills", name: "Skills" },
+    { path: "/projects", name: "Projects" },
     { path: "/resume", name: "Resume" },
     { path: "/contact", name: "Contact" },
   ];
@@ -42,7 +43,7 @@ export const Navbar = () => {
           shadow
             ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-zinc-300 bg-opacity-80 overflow-hidden"
             : "fixed w-full h-20 z-[100] border-b-2 border-slate-100 "
-        }
+        } 
       `}
     >
       <div

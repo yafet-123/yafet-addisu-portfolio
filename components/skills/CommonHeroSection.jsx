@@ -18,9 +18,9 @@ const CommonHeroSection = ({background,Tagline,Welcome_Message}) => {
   };
   const [paddingTop, setPaddingTop] = useState("0");
   return (
-    <div className={`flex flex-col lg:flex-row h-full pt-28 md:px-10 bg-gradient-to-r from-[#1A3E58] to-purple-500`}>
-      <div className="text-white flex flex-col justify-center items-center font-bold text-left w-full mb-5 lg:mb-0 px-5">
-          <h1 className="text-2xl text-center md:text-4xl mb-5">
+    <div className={`flex flex-col lg:flex-row h-full pt-28 md:px-10 bg-zinc-300`}>
+      <div className="text-black flex flex-col justify-center items-center font-normal text-left w-full mb-5 lg:mb-0 px-5">
+          <h1 className="text-2xl text-center font-bold md:text-4xl mb-5">
             {Tagline}
           </h1>
           <h1 className="flex flex-col text-xl text-center md:text-2xl mb-5 leading-10">

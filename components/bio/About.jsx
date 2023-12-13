@@ -7,7 +7,7 @@ const About = ()=>{
 	return(
 		<div id="about" className="w-full p-2 flex flex-col pt-24 px-2 md:px-10 bg-[#e6e6e6ff]">
 			<div className="flex flex-row justify-center md:justify-between items-center my-5">
-				<h1 className="font-sans font-extralight text-[2.1rem] leading-[2.35rem] text-left text-[#010101] w-full tracking-[0.16rem] mb-5">
+				<h1 className="font-sans font-bold text-[2.1rem] leading-[2.35rem] text-left text-[#010101] w-full tracking-[0.16rem] mb-5">
 					BIO
 				</h1>
 				<Link href="/#projects">

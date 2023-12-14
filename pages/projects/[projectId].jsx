@@ -1,8 +1,8 @@
 import { MainHeader } from "../../components/common/MainHeader";
 import { getAllProjects , getProjectById } from '../../data/projects';
-
+ 
 export default function ProjectDetail({project,all_projects}) {
-  // project = project[0];
+  project = project[0];
   console.log(project)
   return (
     <div className="antialiased bg-gradient-to-r">
@@ -38,14 +38,14 @@ export const getStaticProps = async (context) => {
 
 export const getStaticPaths = async (context) => {
   const projects = getAllProjects();
-  console.log(projects)
+  //   console.log(context)
 
-  // Get the paths we want to pre-render based on projects
+  // Get the paths we want to pre-render based on tours
   const paths = projects.map((project) => ({
-    params: { projectID: project.id },
+    params: { projectId: project.id },
   }));
-  console.log(paths)
+
   // We'll pre-render only these paths at build time.
   // { fallback: false } means other routes should 404.
-  return { paths:paths, fallback: false };
+  return { paths: paths, fallback: false };
 };

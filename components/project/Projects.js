@@ -11,7 +11,6 @@ const Projects = ({projects})=>{
         			{ projects.map((project,index)=>(
 	        			<ProjectItem
 	        				project={project}
-	        				id={project.id} 
 	        				key={index}
 	        				title={project.title}
 	            			backgroundImg={project.image}

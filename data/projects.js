@@ -40,7 +40,7 @@ const ProjectsArray = [
       ],
   },
   {
-    id:"4",
+    id:'4',
     title:"Uber Clone",
     image:"/projects/UberClone.png",
     code:"https://github.com/yafet-123/Uber-clone",

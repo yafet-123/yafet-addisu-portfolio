@@ -1,13 +1,14 @@
 import { MainHeader } from "../../components/common/MainHeader";
 import { getAllProjects , getProjectById } from '../../data/projects';
- 
+import Project from "../../components/project/project"
+
 export default function ProjectDetail({project,all_projects}) {
   project = project[0];
   console.log(project)
   return (
     <div className="antialiased bg-gradient-to-r">
       <MainHeader title={`Undiscovered ${project.title}`} />
-      
+      <Project project={project} />
     </div>
   );
 }

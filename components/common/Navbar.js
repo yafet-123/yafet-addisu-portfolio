@@ -100,7 +100,10 @@ export const Navbar = () => {
               {NavLinks.map((link) => (
                 <li
                   key={link.name}
-                  className={` ${ router.pathname == '/'  && !shadow || open ? "text-black" : "text-black" } md:my-0 my-7 text-lg md:text-xl hover:underline cursor-pointer hover:text-[#17c294] ${
+                  className={` ${ 
+                    router.pathname == '/' || router.pathname == '/bio' || router.pathname == '/skills' 
+                    || router.pathname == '/projects' || router.pathname == '/contact' || router.pathname == '/resume'
+                    && !shadow || open ? "text-black" : "text-white" } md:my-0 my-7 text-lg md:text-xl hover:underline cursor-pointer hover:text-[#17c294] ${
                     router.pathname === link.path
                       ? "text-[#314373ff] underline"
                       : ""

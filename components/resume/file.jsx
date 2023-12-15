@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 const File = () => {
 
   return (
-    <div className='px-40 pt-28 h-full bg-[#e6e6e6ff] text-black'>
+    <div className='px-2 lg:px-40 pt-28 h-full bg-[#e6e6e6ff] text-black'>
       <h1 className="font-sans font-bold text-[2.1rem] leading-[2.35rem] text-center w-full tracking-[0.16rem] mb-5">
         Resume
       </h1>

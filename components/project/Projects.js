@@ -6,7 +6,7 @@ const Projects = ({projects})=>{
 	console.log(projects)
 	return(
 		<div id='projects' className='w-full'>
-			<div className="px-20 py-5">
+			<div className="px-2 md:px-20 py-5">
         		<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         			{ projects.map((project,index)=>(
 	        			<ProjectItem

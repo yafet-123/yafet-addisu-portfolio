@@ -21,7 +21,7 @@ const CommonHeroSection = ({background,Tagline,Welcome_Message,photos}) => {
   return (
     <div className={`flex flex-col lg:flex-row h-full pt-28 md:px-10 bg-zinc-300`}>
       <div className="text-black flex flex-col justify-center font-normal text-left w-full lg:w-[50%] mb-5 lg:mb-0 px-5">
-          <h1 className="text-2xl md:text-4xl mb-5">
+          <h1 className="text-2xl md:text-4xl mb-5 text-center md:text-left ">
             {Tagline}
           </h1>
           <h1 className="text-xl text-center md:text-left md:text-2xl mb-5 leading-10">

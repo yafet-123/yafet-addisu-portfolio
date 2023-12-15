@@ -89,7 +89,7 @@ const Skill = ()=>{
 		},
 	]
 	return(
-		<div className='w-full grid grid-cols-2 gap-10 px-20'>
+		<div className='w-full grid grid-cols-1 md:grid-cols-2 gap-10 px-2 md:px-20'>
 		 	{ SkillsList.map((skill,index)=>(
 	         	<div key={index} className='bg-[#e6e6e6ff] py-6 px-3 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
 	          		<div className='flex flex-col justify-center items-center'>

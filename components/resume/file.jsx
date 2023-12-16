@@ -7,11 +7,11 @@ const File = () => {
 
   return (
     <div className='px-2 lg:px-40 pt-28 h-full bg-[#e6e6e6ff] text-black'>
-      <h1 className="font-sans font-bold text-[2.1rem] leading-[2.35rem] text-center w-full tracking-[0.16rem] mb-5">
+      <h1 className="font-sans font-bold text-4xl md:text-5xl leading-[2.35rem] text-center w-full tracking-[0.16rem] mb-5">
         Resume
       </h1>
-      <div className='bg-white my-4 p-4 w-full flex justify-between items-center text-black rounded-xl'>
-        <h2 className='text-center font-sans font-bold text-[1.5rem] leading-[2.35rem] tracking-[0.16rem]'>Yafet Addisu</h2>
+      <div className='bg-white my-4 p-2 md:p-4 w-full flex justify-between items-center text-black rounded-xl'>
+        <h2 className='text-center font-sans font-bold text-2xl md:text-3xl leading-[2.35rem] tracking-[0.16rem]'>Yafet Addisu</h2>
         <div className='flex'>
           <Link href='https://www.linkedin.com/in/yafet-addisu-525107249/'>
             <a target='_blank' rel='noreferrer'>
@@ -25,7 +25,7 @@ const File = () => {
           </Link>
         </div>
       </div>
-      <div className='text-center py-4 font-bold uppercase text-[1.75rem] leading-[2rem] tracking-wider'>
+      <div className='text-center py-4 font-bold uppercase text-3xl md:text-4xl leading-[2rem] tracking-wider'>
         <div className='hidden sm:block'>
           <p> Web Development{' '} <span className='px-1'>|</span> Complex Problem Solving</p>
         </div>
@@ -35,7 +35,7 @@ const File = () => {
             <p>Complex Problem Solving</p>
         </div>
       </div>
-      <p className="font-sans font-normal text-[1.25rem] leading-[2rem] text-center w-full tracking-[0.16rem] mb-5">
+      <p className="font-sans font-normal text-2xl md:text-3xl leading-[2rem] text-center w-full tracking-[0.16rem] mb-5">
         Analytical, innovative, and motivated web development professional
         with experience team work, and organizational effectiveness in fast-paced and challenging
         environments. Adapt at developing strategies and driving streamlined

@@ -48,7 +48,7 @@ export const Navbar = () => {
     >
       <div
         className={` ${
-          open ? "bg-[#1a3e58] fixed w-full" : ""
+          open ? "bg-zinc-300 fixed w-full" : ""
         } lg:justify-between justify-around px-2 lg:px-10 items-center lg:flex`}
       >
         <div className="flex items-center justify-between">
@@ -71,7 +71,7 @@ export const Navbar = () => {
           <div className="flex items-center lg:hidden">
             <div className="pl-5">
               <button
-                className={` text-white p-2 rounded-md outline-none focus:border-gray-400 focus:border`}
+                className={` text-black p-2 rounded-md outline-none focus:border-gray-400 focus:border`}
                 onClick={() => setOpen(!open)}
               >
                 {open === true ? (

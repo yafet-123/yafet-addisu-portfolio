@@ -12,7 +12,7 @@ const Main = ()=>{
 		{path:"/resume", icon:<BsFillPersonLinesFill size={30} color="black"/>}
 	]
 	return(
-		<div id="home" className="w-full h-full text-center bg-[#e6e6e6ff] text-black py-32">
+		<div id="home" className="w-full h-screen text-center bg-[#e6e6e6ff] text-black py-32">
 			<div className="text-center p-2 flex mx-auto justify-center items-center">
 				<div className="">
 					<p className="uppercase font-sans font-bold text-4xl md:text-5xl leading-[2.35rem] text-center w-full tracking-[0.16rem] my-5">

@@ -10,7 +10,7 @@ const CommonHeroSection = ({background,Tagline,Welcome_Message}) => {
   const [paddingTop, setPaddingTop] = useState("0");
   return (
     <div className={`flex flex-col lg:flex-row h-full md:h-[600px] pt-28 px-2 md:px-32 bg-zinc-300`}>
-      <div className="text-black flex flex-col justify-center font-normal text-center w-full mb-5 lg:mb-0 px-5">
+      <div className="text-black flex flex-col justify-center font-normal text-center w-full mb-5 lg:mb-0 px-2 md:px-5">
           <h1 className="text-2xl md:text-4xl font-bold mb-5">
             {Tagline}
           </h1>

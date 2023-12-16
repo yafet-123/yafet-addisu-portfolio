@@ -11,7 +11,7 @@ const About = ()=>{
 					BIO
 				</h1>
 				<Link href="/#projects">
-					<a className="text-white rounded-xl text-center w-96 md:w-52 bg-gradient-to-r from-[#1A3E58] to-purple-500 font-sans font-bold text-lg md:text-xl py-4 cursor-pointer">
+					<a className="text-white rounded-xl text-center w-96 md:w-52 bg-gradient-to-r from-[#1A3E58] to-purple-500 font-sans font-bold text-lg md:text-xl py-2 md:py-4 cursor-pointer">
 						Latest projects					
 					</a>
 				</Link>
@@ -23,13 +23,13 @@ const About = ()=>{
 			</p>
 			<div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div className="flex flex-col">
-					<p className="font-sans font-extralight text-[1.45rem] leading-[3rem] text-left text-[#010101] w-full mt-5 lg:mt-0">
+					<p className="font-sans font-extralight text-xl lg:text-2xl leading-[3rem] text-left text-[#010101] w-full mt-5 lg:mt-0">
 						<span className="flex md:hidden">
 							{`Hello! I'm Yafet Addisu, a dedicated full-stack developer with a passion for crafting innovative and scalable digital 
 							solutions. With a strong foundation in both front-end and back-end technologies, I specialize in bringing ideas to life 
 							through clean, efficient, and user-centric code. `}
 						</span>
-						<span>
+						<span className="leading-[3rem]">
 							{`My journey in web development began with a fascination for creating seamless user interfaces using HTML, CSS, 
 							and JavaScript.Over the years, I've evolved into a full-stack developer, 
 							proficient in utilizing frameworks like React.js for dynamic front-end experiences.

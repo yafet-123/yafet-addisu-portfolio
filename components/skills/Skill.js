@@ -97,8 +97,8 @@ const Skill = ()=>{
 	              			<Image src={skill.path} width='64' height='64' alt='/' />
 	            		</div>
 	            		<div className='flex flex-col items-center justify-center text-black'>
-	              			<h1 className="my-5 text-xl lg:text-3xl font-bold">{skill.name}</h1>
-	              			<p className="text-md lg:text-lg font-normal">{skill.text}</p>
+	              			<h1 className="my-5 text-2xl lg:text-3xl font-bold">{skill.name}</h1>
+	              			<p className="text-xl text-center md:text-2xl leading-10 font-normal">{skill.text}</p>
 	            		</div>
 	          		</div>
 	         	</div>

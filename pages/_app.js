@@ -1,12 +1,11 @@
 import '../styles/globals.css'
-import {Navbar} from '../components/common/Navbar'
-import Layout from '../components/layout/layout';
+import { ThemeProvider } from 'next-themes';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <ThemeProvider enableSystem={true} attribute="class">
       <Component {...pageProps} />
-    </Layout>
+    </ThemeProvider>
   )
 }
 

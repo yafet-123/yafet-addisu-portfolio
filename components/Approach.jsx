@@ -67,18 +67,7 @@ const Approach = () => {
 
 export default Approach;
 
-const Card = ({
-  title,
-  icon,
-  children,
-  // add this one for the desc
-  des,
-}: {
-  title: string;
-  icon: React.ReactNode;
-  children?: React.ReactNode;
-  des: string;
-}) => {
+const Card = ({ title, icon, children, des,}) => {
   const [hovered, setHovered] = React.useState(false);
   return (
     <div
@@ -144,7 +133,7 @@ const Card = ({
   );
 };
 // add order prop for the Phase number change
-const AceternityIcon = ({ order }: { order: string }) => {
+const AceternityIcon = ({ order }) => {
   return (
     <div>
       {/* this btn is from https://ui.aceternity.com/components/tailwindcss-buttons border magic */}
@@ -185,7 +174,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
   );
 };
 
-export const Icon = ({ className, ...rest }: any) => {
+export const Icon = ({ className, ...rest }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

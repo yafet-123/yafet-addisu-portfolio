@@ -1,44 +1,3 @@
-export const project = [
-	{
-		"id": 1,
-		"title":"Ecff Page",
-		"image":"/projects/ecff_page.png",
-		"code":"https://github.com/yafet-123/ecff",
-		"demo":"https://ecff-challenge.vercel.app/",
-		"tech":"Next,js / Tailwind",
-		"overview" : "I built this application in Next JS and is hosted on Vercel.This page style in using Tailwind CSS.",
-	    "technology":[ 'Next.js' , 'Tailwind CSS' , 'react-icons'],
-	},
-	{
-		"title":"Online Code Generator",
-		"image":"/projects/online-code-generator.png",
-		"code":"https://github.com/yafet-123/Online-Code-Generator",
-		"demo":"https://yafet-123.github.io/Online-Code-Generator/",
-		"tech":"HTML / CSS",
-		"overview" : " Simple online code generator done by using html, css , js and qrcode.js and is hosted on Github.",
-	    "technology":[ 'HTML', 'CSS' , 'js' , 'qrcode.js'],
-	},
-	{
-		"title":"Simple Landing Page App",
-		"image":"/projects/simpleLandingPage.png",
-		"code":"https://github.com/yafet-123/simple-landing-page-with-tailwind",
-		"demo":"https://simple-landing-page-with-tailwind.vercel.app/",
-		"tech":"Next JS / Tailwind",
-		"overview" : " I built this application in Next JS and is hosted on Vercel.",
-	    "technology":[ "React", "Tailwind", "Javascript", "react-icons",],
-	},
-	{
-		"title":"Uber Clone",
-		"image":"/projects/UberClone.png",
-		"code":"https://github.com/yafet-123/Uber-clone",
-		"demo":"https://uber-clone-chi-neon.vercel.app/",
-		"tech":"Next JS / Tailwind ",
-		"overview" : " I built this application in Next JS and is hosted on Vercel.This application is pulling map from an the mapbox-gl API and displaying the map for user. The user can select ride it can be car or bicycle then the user insert the startup and the end location then the app calculate the amount of money by using the car selected and the price.",
-    	"technology":[ "Next.JS", "Tailwind", "Javascript", "mapbox-gl"],
-	}
-]
-
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -113,37 +72,41 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title:"Ecff Page",
+    des : "I built this application in Next JS and is hosted on Vercel.This page style in using Tailwind CSS.",
+    img : "/projects/ecff_page.png",
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    code : "https://github.com/yafet-123/ecff",
+    demo :"https://ecff-challenge.vercel.app/",
   },
   {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    id : 1,
+    title : "Online Code Generator",
+    des : "Simple online code generator done by using html, css , js and qrcode.js and is hosted on Github.",
+    img : "/projects/online-code-generator.png",
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    code : "https://github.com/yafet-123/Online-Code-Generator",
+    demo : "https://yafet-123.github.io/Online-Code-Generator/",
   },
   {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    id : 3,
+    title :"Simple Landing Page App",
+    des : "I built this application in Next JS and is hosted on Vercel.",
+    img : "/projects/simpleLandingPage.png",
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    code :"https://github.com/yafet-123/simple-landing-page-with-tailwind",
+    demo :"https://simple-landing-page-with-tailwind.vercel.app/",
   },
   {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
-];
+    id : 4,
+    title : "Uber Clone",
+    img : "/projects/UberClone.png",
+    des : " I built this application in Next JS and is hosted on Vercel.This application is pulling map from an the mapbox-gl API and displaying the map for user. The user can select ride it can be car or bicycle then the user insert the startup and the end location then the app calculate the amount of money by using the car selected and the price.",
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    code : "https://github.com/yafet-123/Uber-clone",
+    demo:"https://uber-clone-chi-neon.vercel.app/",
+  }
+]
 
 export const testimonials = [
   {

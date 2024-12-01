@@ -5,18 +5,11 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Button } from "./MovingBorders";
 
-type Card = {
-  id: number;
-  content: JSX.Element | React.ReactNode | string;
-  className: string;
-  thumbnail: string;
-};
+export const LayoutGrid = ({ cards }) => {
+  const [selected, setSelected] = useState(null);
+  const [lastSelected, setLastSelected] = useState(null);
 
-export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
-  const [selected, setSelected] = useState<Card | null>(null);
-  const [lastSelected, setLastSelected] = useState<Card | null>(null);
-
-  const handleClick = (card: Card) => {
+  const handleClick = (card) => {
     setLastSelected(selected);
     setSelected(card);
   };
@@ -78,7 +71,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
   );
 };
 
-const BlurImage = ({ card }: { card: Card }) => {
+const BlurImage = ({ card }) => {
   const [loaded, setLoaded] = useState(false);
   return (
     <Image
@@ -96,7 +89,7 @@ const BlurImage = ({ card }: { card: Card }) => {
   );
 };
 
-const SelectedCard = ({ selected }: { selected: Card | null }) => {
+const SelectedCard = ({ selected }) => {
   return (
     <div className="bg-transparent h-full w-full flex flex-col justify-end rounded-lg shadow-2xl relative z-[60]">
       <motion.div

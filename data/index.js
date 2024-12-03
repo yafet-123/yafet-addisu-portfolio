@@ -108,7 +108,7 @@ export const projects = [
     des : `Kidus is a passionate painter whose work captures the essence of emotion and storytelling through vibrant colors and bold strokes. His 
     portfolio showcases a unique blend of creativity and skill, offering a glimpse into his artistic journey and the inspiration behind each 
     masterpiece.`,
-    img : "/projects/kidus.png",
+    img : "/projects/kidus.jpg",
     iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
     code : "https://github.com/yafet-123/kidus-portfolio",
     demo :"https://ecff-challenge.vercel.app/",

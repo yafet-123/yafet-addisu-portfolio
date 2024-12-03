@@ -330,9 +330,9 @@ export const socialMedia = [
   },
 ];
 
-const socialMediaLinks = [
-    {path:"https://yafetaddisu123@gmail.com", icon:<MdEmail size={30} />},
-    {path:"https://www.facebook.com/yafet.addisu.7/",icon:<FaFacebook size={30} />},
-    {path:"https://www.instagram.com/yafetaddisu/",icon:<FaInstagram size={30} />},
-    {path:"/resume", icon:<BsFillPersonLinesFill size={30} />}
-  ];
+// const socialMediaLinks = [
+//     {path:"https://yafetaddisu123@gmail.com", icon:<MdEmail size={30} />},
+//     {path:"https://www.facebook.com/yafet.addisu.7/",icon:<FaFacebook size={30} />},
+//     {path:"https://www.instagram.com/yafetaddisu/",icon:<FaInstagram size={30} />},
+//     {path:"/resume", icon:<BsFillPersonLinesFill size={30} />}
+//   ];

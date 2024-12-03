@@ -1,5 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
+import Link from "next/link"
 import { projects } from "../data/index.js";
 import { PinContainer } from "./ui/Pin";
 

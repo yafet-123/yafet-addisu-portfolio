@@ -8,8 +8,11 @@ import Approach from "../components/Approach";
 import Experience from "../components/Experience";
 import RecentProjects from "../components/RecentProjects";
 import { FloatingNav } from "../components/ui/FloatingNavbar";
+import { useTheme } from "next-themes";
 
 export default function Home() {
+  const { systemTheme, theme, setTheme } = useTheme();
+  setTheme("dark")
   return (
     <main className="relative bg-black-900 flex justify-center items-center flex-col overflow-hidden sm:px-20 px-5">
       <div className="w-full">

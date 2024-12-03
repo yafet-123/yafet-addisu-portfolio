@@ -10,9 +10,9 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10 w-full">
         {projects.map((item) => (
-          <div className="lg:min-h-[32.5rem] h-[25rem] w-full flex items-center justify-center" key={item.id}>
+          <div className="lg:min-h-[32.5rem] h-[25rem] w-full flex items-center justify-between" key={item.id}>
             <PinContainer
               title="Visit"
               href={item.demo}

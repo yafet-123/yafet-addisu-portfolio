@@ -1,5 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
-import Link from "next/link"
+
 import { projects } from "../data/index.js";
 import { PinContainer } from "./ui/Pin";
 
@@ -10,14 +10,14 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10 w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
         {projects.map((item) => (
-          <div className="lg:min-h-[32.5rem] h-[25rem] w-full" key={item.id}>
+          <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]" key={item.id}>
             <PinContainer
               title="Visit"
               href={item.demo}
             >
-              <div className="relative flex items-center justify-center w-full overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl">
                   <img src="/bg.png" alt="bgimg" />
                 </div>

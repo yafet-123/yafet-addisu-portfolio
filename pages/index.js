@@ -14,7 +14,7 @@ export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
   setTheme("dark")
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden sm:px-20 px-5">
+    <main className="relative dark:bg-black-100 flex justify-center items-center flex-col overflow-hidden sm:px-20 px-5">
       <div className="w-full">
         <FloatingNav navItems={navItems} />
         <Hero />

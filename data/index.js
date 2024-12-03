@@ -196,7 +196,7 @@ export const projects = [
   {
     id : 12,
     title : "Cafeteria",
-    img : "/projects/caffe.png",
+    img : "/projects/caffe.jpg",
     des : `Cafeteria is a vibrant online platform designed for coffee lovers and food enthusiasts alike. This website showcases a wide variety of freshly 
     brewed coffee, snacks, and pastries in a warm and inviting atmosphere. It offers visitors an immersive experience to explore different coffee blends, 
     view the menu, and learn about the origins of the ingredients. The site may also feature an online ordering system for customers to enjoy their 

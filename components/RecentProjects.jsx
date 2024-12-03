@@ -12,7 +12,7 @@ const RecentProjects = () => {
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
         {projects.map((item) => (
-          <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]" key={item.id}>
+          <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[100vw]" key={item.id}>
             <PinContainer
               title="Visit"
               href={item.demo}

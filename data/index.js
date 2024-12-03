@@ -71,75 +71,177 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
+    id:1,
+    title:"Eco Travel Ethiopia",
+    des:`Eco Travel Ethiopia is a sustainable tourism initiative dedicated to showcasing Ethiopia's breathtaking landscapes, rich cultural heritage, and 
+    unique biodiversity. By prioritizing eco-friendly practices and community empowerment, it offers unforgettable travel experiences while preserving 
+    the environment for future generations`,
+    img : "/projects/ecotravel.jpg",
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
+    code : "https://github.com/Natnaelh/eco-travel-ethiopia-app",
+    demo :"https://ecotravelethiopia.com/",
+  },
+  {
+    id:2,
+    title:"Undiscovered Ethiopia",
+    des:`Undiscovered Ethiopia invites you to explore the hidden gems of Ethiopia, uncovering its vibrant culture, majestic landscapes, and untold stories. 
+    Focused on authentic and enriching experiences, we connect travelers with the true essence of Ethiopia, creating memories that last a lifetime.`,
+    img : "/projects/undiscovered.jpg",
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
+    code : "https://github.com/yafet-123/Undiscovered-tour-and-travel-website",
+    demo :"https://ecotravelethiopia.com/",
+  },
+  {
+    id:3,
+    title:"Pan Ethiopia",
+    des:`Pan Ethiopia showcases the diverse beauty and rich heritage of Ethiopia, offering unique travel experiences that span its breathtaking landscapes 
+    and vibrant cultures. Our mission is to connect explorers with the heart of Ethiopia, creating journeys filled with adventure, discovery, and 
+    unforgettable moments.`,
+    img : "/projects/panethiopia.jpg",
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
+    code : "https://github.com/yafet-123/Pan-Africa",
+    demo :"https://pan-africa-seven.vercel.app/",
+  },
+  {
+    id: 4,
+    title:"Kidus Portfolio",
+    des : `Kidus is a passionate painter whose work captures the essence of emotion and storytelling through vibrant colors and bold strokes. His 
+    portfolio showcases a unique blend of creativity and skill, offering a glimpse into his artistic journey and the inspiration behind each 
+    masterpiece.`,
+    img : "/projects/kidus.png",
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
+    code : "https://github.com/yafet-123/kidus-portfolio",
+    demo :"https://ecff-challenge.vercel.app/",
+  },
+  {
+    id : 5,
+    title : "Milk and Milk Products",
+    des : `Milk and milk products are essential sources of nutrition, offering a rich supply of calcium, protein, and essential vitamins. From fresh 
+    milk to a variety of dairy products like cheese, yogurt, and butter, they play a key role in maintaining a balanced diet and supporting healthy 
+    bones and overall well-being.`,
+    img : "/projects/milkandmilkproducts.jpg",
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
+    code : "https://github.com/yafet-123/milk-and-milk-products",
+    demo : "https://milk-and-milk-products.vercel.app/",
+  },
+  {
+    id : 6,
+    title : "Helen Zeray Portfolio",
+    des : `Helen Zeray is a passionate and visionary creative professional. Her portfolio showcases a remarkable blend of artistry and innovation, reflecting 
+    her dedication to excellence. From captivating designs to compelling concepts, Helen brings ideas to life with a unique perspective and a keen eye 
+    for detail. Explore her work to discover the perfect balance of creativity and precision.`,
+    img : "/projects/helen.jpg",
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
+    code : "https://github.com/yafet-123/Portfolio",
+    demo : "https://portfolio-tau-lovat.vercel.app/",
+  },
+  {
+    id : 7,
+    title : "Hulu Neger",
+    des : `Hulu Neger is your ultimate platform for diverse opportunities and insights. From job postings to educational courses, breaking news, and 
+    engaging blogs, Hulu Neger connects you to the information and resources you need to stay informed and empowered. Explore a world of possibilities, 
+    all in one place!`,
+    img : "/projects/hulu.jpg",
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
+    code : "https://github.com/yafet-123/job-frontend-main",
+    demo : "https://job-frontend-main.vercel.app/",
+  },
+  {
+    id: 8,
     title:"Ecff Page",
-    des : "I built this application in Next JS and is hosted on Vercel.This page style in using Tailwind CSS.",
+    des : `ECFF (Ethiopian Coffee Farmers' Federation) is a prominent organization dedicated to supporting coffee farmers in Ethiopia. With a focus on 
+    improving the livelihoods of smallholder farmers, ECFF works to enhance the quality and sustainability of Ethiopian coffee production. 
+    Through advocacy, education, and access to resources, ECFF empowers farmers to produce high-quality coffee that reflects Ethiopia's rich 
+    coffee heritage while fostering economic development within local communities.`,
     img : "/projects/ecff_page.png",
-    iconLists : ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
     code : "https://github.com/yafet-123/ecff",
     demo :"https://ecff-challenge.vercel.app/",
   },
   {
-    id : 1,
+    id : 9,
     title : "Online Code Generator",
-    des : "Simple online code generator done by using html, css , js and qrcode.js and is hosted on Github.",
+    des : `Online Code Generator is a fast and user-friendly tool for creating custom codes and scripts. 
+    Whether you need to generate QR codes, HTML snippets, or programming templates, this platform simplifies the process, 
+    saving you time and effort.`,
     img : "/projects/online-code-generator.png",
-    iconLists : ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
     code : "https://github.com/yafet-123/Online-Code-Generator",
     demo : "https://yafet-123.github.io/Online-Code-Generator/",
   },
   {
-    id : 3,
+    id : 10,
     title :"Simple Landing Page App",
-    des : "I built this application in Next JS and is hosted on Vercel.",
+    des : `Simple Landing Page App is a streamlined solution for creating elegant and responsive landing pages. Perfect for businesses, events, 
+    or personal projects, it offers customizable templates, modern designs, and seamless functionality to help you make a lasting 
+    impression online.`,
     img : "/projects/simpleLandingPage.png",
     iconLists : ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     code :"https://github.com/yafet-123/simple-landing-page-with-tailwind",
     demo :"https://simple-landing-page-with-tailwind.vercel.app/",
   },
   {
-    id : 4,
+    id : 11,
     title : "Uber Clone",
     img : "/projects/UberClone.png",
-    des : " I built this application in Next JS and is hosted on Vercel.This application is pulling map from an the mapbox-gl API and displaying the map for user. The user can select ride it can be car or bicycle then the user insert the startup and the end location then the app calculate the amount of money by using the car selected and the price.",
-    iconLists : ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    des : `Uber Clone is a ride-hailing app that replicates the core functionalities of Uber, providing users with an efficient and user-friendly 
+    platform to book rides. The app connects passengers with drivers, allowing for seamless ride requests, real-time tracking, and secure payment 
+    options. Ideal for entrepreneurs and developers, an Uber Clone can be customized to fit specific regional needs or business models, offering 
+    features such as driver and passenger profiles, ride history, fare calculation, and a rating system. It is a cost-effective solution for 
+    launching a transportation service quickly.`,
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
     code : "https://github.com/yafet-123/Uber-clone",
     demo:"https://uber-clone-chi-neon.vercel.app/",
-  }
+  },
+  {
+    id : 12,
+    title : "Cafeteria",
+    img : "/projects/caffe.png",
+    des : `Cafeteria is a vibrant online platform designed for coffee lovers and food enthusiasts alike. This website showcases a wide variety of freshly 
+    brewed coffee, snacks, and pastries in a warm and inviting atmosphere. It offers visitors an immersive experience to explore different coffee blends, 
+    view the menu, and learn about the origins of the ingredients. The site may also feature an online ordering system for customers to enjoy their 
+    favorite coffee and treats from the comfort of their home. Whether for a quick coffee break or a relaxing moment, Cafeteria is the perfect 
+    destination for a delightful experience.`,
+    iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
+    code : "https://github.com/yafet-123/cafteria",
+    demo:"https://cafteria.vercel.app/",
+  },
 ]
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      `Collaborating with Yared Tadesse was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results 
+      were evident throughout our project. Yared's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website 
+      and elevate your brand, Yared is the ideal partner.`,
+    name: "Yared Tadesse",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      `Alemayehu Bekele brings unparalleled expertise and creativity to the table. His ability to transform ideas into exceptional digital experiences 
+      is truly remarkable. Working with Alemayehu guarantees a seamless process and outstanding results.`,
+    name: "Alemayehu Bekele",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      `Every interaction with Kalkidan Alemu is marked by professionalism and insight. His commitment to delivering quality work, coupled with his 
+      innovative approach, makes him a standout developer.`,
+    name: "Kalkidan Alemu",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      `Biruk Wolde's work ethic and passion for excellence are unmatched. From initial discussions to project delivery, his attention to detail and 
+      dedication shine through.`,
+    name: "Biruk Wolde",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      `Partnering with Tsegaye Mengistu was the best decision for our business. His technical skills and understanding of user-centric design took our 
+      project to the next level.`,
+    name: "Tsegaye Mengistu",
   },
 ];
+
 
 export const companies = [
   {

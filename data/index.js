@@ -1,3 +1,9 @@
+import Testimonial1 from "../public/testimony/car1.jpg"
+import Testimonial2 from "../public/testimony/car2.jpg"
+import Testimonial3 from "../public/testimony/car3.jpg"
+import Testimonial4 from "../public/testimony/car4.jpg"
+import Testimonial5 from "../public/testimony/car5.jpg"
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -210,35 +216,40 @@ export const projects = [
 
 export const testimonials = [
   {
+    imagepath: Testimonial1,
     quote:
-      `Working with Yafet Addisu and the Ethionova team has been an incredible experience. Their professionalism, promptness, and dedication to delivering 
-      exceptional results were evident throughout our project. The team's enthusiasm for every facet of development truly stands out. If you're looking to 
-      elevate your website and boost your brand, Ethionova is the ideal partner.`,
+      `Working with Yafet Addisu has been an incredible experience. Their professionalism, promptness, and dedication to delivering 
+      exceptional results were evident throughout our project. His enthusiasm for every facet of development truly stands out. If you're 
+      looking to elevate your website and boost your brand, Yafet Addisu is the ideal partner.`,
     name: "Yared Tadesse",
   },
   {
+    imagepath: Testimonial3,
     quote:
-      `Yafet Addisu and Ethionova bring unparalleled expertise and creativity to the table. Their ability to transform ideas into exceptional digital 
-      experiences is truly remarkable. Partnering with Ethionova guarantees a seamless process and outstanding results.`,
+      `Yafet Addisu bring unparalleled expertise and creativity to the table. His ability to transform ideas into exceptional digital 
+      experiences is truly remarkable. Partnering with Yafet Addisu guarantees a seamless process and outstanding results.`,
     name: "Alemayehu Bekele",
   },
   {
+    imagepath: Testimonial2,
     quote:
-      `Every interaction with Yafet Addisu and the Ethionova team has been marked by professionalism and insight. Their commitment to delivering quality 
-      work, coupled with their innovative approach, makes them a standout tech partner.`,
+      `Every interaction with Yafet Addisu has been marked by professionalism and insight. His commitment to delivering quality 
+      work, coupled with his innovative approach, makes them a standout tech partner.`,
     name: "Kalkidan Alemu",
   },
   {
+    imagepath: Testimonial5,
     quote:
-      `The work ethic and passion for excellence at Ethionova, led by Yafet Addisu, are unmatched. From initial discussions to project delivery, their 
+      `The work ethic and passion for excellence Yafet Addisu bring, are unmatched. From initial discussions to project delivery, his 
       attention to detail and dedication shine through.`,
     name: "Biruk Wolde",
   },
   {
+    imagepath: Testimonial4,
     quote:
-      `Partnering with Yafet Addisu and Ethionova was the best decision for our business. Their technical expertise and focus on user-centric design 
+      `Partnering with Yafet Addisu was the best decision for our business. Their technical expertise and focus on user-centric design 
       took our project to the next level.`,
-    name: "Tsegaye Mengistu",
+    name: "Helen Zeray",
   },
 ];
 

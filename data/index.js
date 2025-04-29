@@ -95,7 +95,7 @@ export const projects = [
     img : "/projects/undiscovered.jpg",
     iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
     code : "https://github.com/yafet-123/Undiscovered-tour-and-travel-website",
-    demo :"https://ecotravelethiopia.com/",
+    demo :"https://undiscovered-tour-and-travels.vercel.app/",
   },
   {
     id:3,
@@ -117,7 +117,7 @@ export const projects = [
     img : "/projects/kidus.jpg",
     iconLists : ["/next.svg", "/tail.svg", "/ts.svg"],
     code : "https://github.com/yafet-123/kidus-portfolio",
-    demo :"https://ecff-challenge.vercel.app/",
+    demo :"https://kidus-portfolio-ten.vercel.app/",
   },
   {
     id : 5,
